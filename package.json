@@ -1,6 +1,6 @@
 {
   "name": "workspace-timer",
-  "displayName": "Automatic Time Tracker",
+  "displayName": "Workspace Timer",
   "description": "Automatic time tracking per workspace",
   "publisher": "GuiFerrSouza",
   "license": "MIT",
