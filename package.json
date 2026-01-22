@@ -1,8 +1,13 @@
 {
-  "name": "time-tracker",
+  "name": "workspace-timer",
   "displayName": "Automatic Time Tracker",
   "description": "Automatic time tracking per workspace",
   "publisher": "GuiFerrSouza",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GuiferrSouza/WorkspaceTimer"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.108.1"

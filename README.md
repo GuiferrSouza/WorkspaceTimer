@@ -1,71 +1,36 @@
-# time-tracker README
+# Automatic Time Tracker for VS Code
 
-This is the README for your extension "time-tracker". After writing up a brief description, we recommend including the following sections.
+Automatic Time Tracker is a Visual Studio Code extension that tracks the time you spend coding per workspace. It works silently in the background, automatically switching between projects and counting time only when VS Code is focused.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Automatic time tracking for each workspace
+- Status bar shows current workspace and tracked time
+- Pauses when VS Code loses focus
+- Persists time even when you close and reopen VS Code
+- Fully automatic, no buttons or commands required
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Open the Extensions view in VS Code (`Ctrl+Shift+X` or `Cmd+Shift+X`).
+2. Search for `Automatic Time Tracker`.
+3. Click **Install**.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Open any workspace or folder in VS Code.
+- The extension will automatically start tracking time.
+- Look at the status bar to see the current tracked time for the workspace.
+- Time will pause automatically when VS Code is not focused and resume when you return.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+This extension has no configurable settings; it runs fully automatically.
 
-For example:
+## Contributing
 
-This extension contributes the following settings:
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## License
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+MIT License
