@@ -1,7 +1,8 @@
 {
   "name": "time-tracker",
-  "displayName": "time-tracker",
-  "description": "",
+  "displayName": "Automatic Time Tracker",
+  "description": "Automatic time tracking per workspace",
+  "publisher": "GuiFerrSouza",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.108.1"

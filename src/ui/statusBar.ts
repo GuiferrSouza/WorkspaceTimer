@@ -28,7 +28,7 @@ function updateStatusBar() {
     const session = tracker.getActiveSession();
 
     if (!session) {
-        statusBarItem.text = "⏱️ No workspace";
+        statusBarItem.text = "◴ No workspace";
         statusBarItem.tooltip = "Time Tracker (auto) - No active workspace";
         return;
     }
@@ -36,7 +36,7 @@ function updateStatusBar() {
     const ms = tracker.getElapsedMs();
     const formattedTime = format(ms);
 
-    statusBarItem.text = `⏱️ ${session.workspaceName} • ${formattedTime}`;
+    statusBarItem.text = `◴ ${session.workspaceName} • ${formattedTime}`;
     statusBarItem.tooltip = `Time Tracker (auto)\nWorkspace: ${session.workspaceName}\nTotal time: ${formattedTime}`;
 }
 
