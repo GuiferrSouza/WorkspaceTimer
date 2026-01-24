@@ -12,6 +12,9 @@ Automatic Time Tracker is a Visual Studio Code extension that tracks the time yo
 
 ## Installation
 
+Install it directly from the Visual Studio Code Marketplace [here](https://marketplace.visualstudio.com/items?itemName=GuiFerrSouza.workspace-timer).
+
+Alternatively:
 1. Open the Extensions view in VS Code (`Ctrl+Shift+X` or `Cmd+Shift+X`).
 2. Search for `Automatic Time Tracker` or `workspace-timer`.
 3. Click **Install**.
