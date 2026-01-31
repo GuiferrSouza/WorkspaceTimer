@@ -1,4 +1,4 @@
-# Automatic Time Tracker for VS Code
+# Workspace Timer
 
 Automatic Time Tracker is a Visual Studio Code extension that tracks the time you spend coding per workspace. It works silently in the background, automatically switching between projects and counting time only when VS Code is focused.
 
